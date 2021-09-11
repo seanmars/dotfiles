@@ -1,0 +1,11 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ["~"]
+
+- link:
+    ~/.bash_aliases:
+      path: dotfiles/bash/bash_aliases
+    ~/.gitconfig:
+      path: dotfiles/gitconfig/chinesegamer/gitconfig-main

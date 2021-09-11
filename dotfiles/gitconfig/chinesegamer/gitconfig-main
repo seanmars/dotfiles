@@ -1,0 +1,16 @@
+[user]
+    name = 黃郁軒
+    email = mars0222@chinesegamer.net
+[init]
+    defaultBranch = main
+[protocol]
+    version = 2
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[includeIf "gitdir:D:/workshop/seanmars/**"]
+    path = D:/workshop/seanmars/.gitconfig
+[includeIf "gitdir:D:/workshop/sandbox/**"]
+    path = D:/workshop/sandbox/.gitconfig
