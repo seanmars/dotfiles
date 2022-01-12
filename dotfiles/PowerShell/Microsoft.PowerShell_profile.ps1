@@ -41,6 +41,11 @@ function ImportPSReadLine() {
     }
 }
 
+<##### Settings #####>
+# Default value $ProgressPreference = 'Continue'
+# ref: https://blog.miniasp.com/post/2019/01/11/ProgressPreference-slow-down-powershell-execution
+$ProgressPreference = 'SilentlyContinue'
+
 <##### Modules <#####>
 # PSReadLine
 ImportPSReadLine
