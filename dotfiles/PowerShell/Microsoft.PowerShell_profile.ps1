@@ -77,7 +77,7 @@ Function gig {
 }
 
 # Open the file explorer on current path
-function exp { Invoke-Item . }
+function open { Invoke-Item . }
 
 # Generate Guid
 function guid {
