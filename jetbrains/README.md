@@ -1,6 +1,8 @@
-# Editor > File And Code Templates
+# JetBrains Settings
 
-## Vue
+## Editor > File And Code Templates
+
+### Vue
 
 - Vue SFC With setup
   - Extension: `vue`
